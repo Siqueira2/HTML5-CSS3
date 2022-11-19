@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Idroid';
+    src: url('./assets/font/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+header {
+    padding: 40px 0px 5px 0;
+    background-image: linear-gradient(to bottom, #3cd983, #1a5c38);
+    color: white;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+.th {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 100;
+    margin: 30px auto;
+    width: 400px;
+}
+
+.menulist {
+    display: inline;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menulist:hover {
+    background-color: #2fa866;
+}
+
+nav {
+    margin-top: 50px;
+}
+
+.menu {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
+    background-color: #3cd983;
+    padding-bottom: 20px;
+}
+
+.wrapper {
+    margin: 0px auto;
+    border-radius: 0px 0px 15px 15px;
+    background-color: white;
+    padding: 20px;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+.title {
+    margin-bottom: 10px;
+    color: #1b5c39;
+}
+
+h2 {
+    margin: 10px 0px;
+    color: #0f8142;
+    background-color: #2ad17542;
+}
+
+p {
+    text-indent: 40px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.video {
+    background-color: #1a5c38;
+    margin: 10px auto;
+    padding: 15px 50px;
+}
+
+iframe {
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+span {
+    font-weight: bold;
+    color: #1a5c38;
+}
+
+a {
+    font-weight: bold;
+    color: #1a5c38;
+    text-decoration: none;
+}
+
+.link::after {
+    content: '🖇';
+}
+
+.bot {
+    background-color: #c5ebd6;
+    padding: 10px 10px 15px 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 15px;
+}
+
+.top {
+    padding: 10px 5px 10px 5px;
+    color: white;
+    background-color: #2fa866;
+    border-radius: 10px 10px 0px 0px;
+}
+ footer {
+    background-color: #1a5c38;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+ }
