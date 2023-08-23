@@ -1,0 +1,11 @@
+a[target="_blank"]::after {
+  content: url(imagens/newWindow-icon.png);
+}
+
+a[href$="pdf"]::before {
+  content: url(imagens/pdf-icon.gif);
+}
+
+input[type="checkbox"]:checked + label {
+  color: green;
+}

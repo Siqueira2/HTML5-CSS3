@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+:root {
+  --primary: #3f68b2;
+  --secondary: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  background: var(--primary);
+}
+
+form {
+  width: 50%;
+  padding: 3em 2em;
+  background: var(--secondary);
+  box-shadow: -5px 0 2px rgba(0, 0, 0, 0.3);
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-weight: 300;
+  color: var(--primary);
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+}
+
+label {
+  font-weight: normal;
+}
+
+.userData {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--primary);
+  padding: 1em 2em;
+  background: transparent;
+  margin-bottom: 1.5em;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions p {
+  font-size: 0.8em;
+}
+
+.buttons input,
+.buttons a {
+  font-size: 1em;
+  text-transform: uppercase;
+  width: fit-content;
+  border: none;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.75em 1.25em;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  background: var(--primary);
+  color: var(--secondary);
+}
+
+.btn {
+  text-decoration: none;
+  color: var(--primary);
+  border: none;
+  background: transparent;
+}
+
+a {
+  color: var(--primary);
+}
