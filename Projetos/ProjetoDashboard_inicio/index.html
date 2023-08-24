@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <nav class="main_nav">
+      <a href="#" class="main_nav_logo">Dashboard</a>
+
+      <div class="menus">
+        <ul class="main_nav_menu">
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Annouced</a></li>
+          <li><a href="#">Preparation</a></li>
+          <li><a href="#">Sorted</a></li>
+          <li><a href="#">Distributed</a></li>
+        </ul>
+
+        <ul class="main_nav_menu">
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="top_nav">
+      <nav>
+        <ul class="top_nav_menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </nav>
+      <section class="profile">
+        <div class="profile_thumb">
+          <img src="imagens/perfil.png" alt="profile" />
+        </div>
+        <div>
+          <p class="profile_name">Daniel</p>
+          <p class="profile_rule">Front-end</p>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="summary">
+        <article>
+          <span class="summary_description">Announced Today</span>
+          <span class="summary_number">2356008</span>
+        </article>
+
+        <div class="summary_separated"></div>
+
+        <article>
+          <span class="summary_description">Prepared Today</span>
+          <span class="summary_number">16738</span>
+        </article>
+
+        <div class="summary_separated"></div>
+
+        <article>
+          <span class="summary_description">Sorted Today</span>
+          <span class="summary_number">286</span>
+        </article>
+
+        <button class="btn">See more</button>
+      </section>
+
+      <figure><img src="imagens/chart1.png" alt="chart" /></figure>
+      <figure class="grid_half">
+        <img src="imagens/chart2.png" alt="chart" />
+      </figure>
+      <figure class="grid_half">
+        <img src="imagens/chart3.png" alt="chart" />
+      </figure>
+    </main>
+  </body>
+</html>
